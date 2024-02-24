@@ -1,0 +1,16 @@
+'''
+Problem Description
+1. This problem takes the range as input and finds the number of integers divisible by 5 in the given range.
+2. Also finds the sum of all integers that are divisible by 5 in the given range.
+'''
+
+a=int(input())
+b=int(input())
+n=0
+sum=0
+for i in range(a,b+1):
+      if(i%5==0):
+            n=n+1
+            sum=sum+i
+print("number of integer divisible by 5:",n)
+print("sum of integer divisible by 5:",sum)
