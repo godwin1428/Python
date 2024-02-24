@@ -1,0 +1,8 @@
+a=int(input())
+sum=0
+r=0
+while(a):
+      r=a%10
+      sum+=r+1
+      a=a//10
+print("After increment of digits:",sum)
