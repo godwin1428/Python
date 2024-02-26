@@ -1,0 +1,12 @@
+a=input()
+vo=0
+co=0
+for i in a:
+    if i in "aeiouAEIOU":
+        vo=vo+1
+    elif i !=' ':
+        co=co+1
+    else:
+        continue    
+print("number of vowels:",vo)
+print("number of consonents:",co)
