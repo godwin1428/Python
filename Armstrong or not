@@ -1,0 +1,9 @@
+a=input()
+n=len(a)
+sum=0
+for i in a:
+    sum+=int(i)**n
+if(sum==int(a)):
+    print("armstrong number")
+else:
+    print("not a armstrong number")
