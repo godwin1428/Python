@@ -1,0 +1,11 @@
+a=int(input())
+temp=a
+rev=0
+while(a>0):
+    n=a%10
+    rev=rev*10+n
+    a=a//10
+if(temp==rev):
+    print("palindrome")
+else:
+    print("not a palindrome")
