@@ -1,0 +1,9 @@
+a=input()
+b=input()
+s=(a>b)-(a<b)
+if s==0:
+    print("the strings are equal")
+elif s<0:
+    print("first string is lesser than second")
+else:
+    print("first string is greater than second")
