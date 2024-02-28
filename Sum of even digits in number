@@ -1,0 +1,8 @@
+num = int(input())
+sum = 0
+while num > 0:
+    n = num % 10
+    if(n%2 == 0):
+        sum += int(n)
+    num = num//10
+print("Sum of even digits: ", str(sum))
