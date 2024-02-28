@@ -1,0 +1,6 @@
+num=int(input()) 
+sq = num ** 0.5  
+if sq.is_integer():  
+    print("perfect square")  
+else:  
+    print("not a perfect square")  
